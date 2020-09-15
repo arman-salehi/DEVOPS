@@ -1,9 +1,19 @@
 body{
-    background-color: aquamarine;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titel {
+    color: red;
 }
 
 div h1{
     width: 200px;
+    color: #828282;
+    background-color: #E2E2E2;
+    border-radius: 100px;
+    padding: 10px 30px;
+    text-align: center;
 }
 
 
@@ -11,23 +21,31 @@ div h1{
     display: inline-block;
     margin: 20px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px black;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    /*box-shadow: 10px 10px 20px black;*/
 }
 
 .posterimg{
     width: 200px;
     height: 300px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #poster1{
-    background-color: blue;
+    background-color: #FAFAFA;
+    padding-bottom: 50px;
 }
 
 #poster2{
-    background-color: blue;
+    background-color: #FAFAFA;
+    padding-bottom: 50px;
 }
 
 #poster3{
-    background-color: blue;
+    background-color: #FAFAFA;
+    padding-bottom: 50px;
 }
